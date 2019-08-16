@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="psrm">
+  <test thread-count="5"  name="Testes">
+    <classes>
+    
+  
+    <class name="agt.psrm.appModules.appModules_NIFSearch.pageObjects.test.NIFSearch_SearchTax"/>
+  <!--  <class name="test.java.CollectiveRegistration"/> -->
+   <!--  <class name="test.java.InstitutionalRegistration"/> -->
+   
+   
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

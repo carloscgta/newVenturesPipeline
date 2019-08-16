@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[Person with New NIF is displayed : Validation Success]]>
+    </line>
+  </reporter-output>
+  <suite name="psrm" duration-ms="71567" started-at="2019-08-12T15:05:31Z" finished-at="2019-08-12T15:06:43Z">
+    <groups>
+    </groups>
+    <test name="Testes" duration-ms="71567" started-at="2019-08-12T15:05:31Z" finished-at="2019-08-12T15:06:43Z">
+      <class name="agt.psrm.appModules.appModules_NIFSearch.pageObjects.test.NIFSearch_SearchTax">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:agt.psrm.appModules.appModules_NIFSearch.pageObjects.test.NIFSearch_SearchTax@4678c730]" name="beforeMethod" is-config="true" duration-ms="35318" started-at="2019-08-12T15:05:31Z" finished-at="2019-08-12T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="degree360View()[pri:0, instance:agt.psrm.appModules.appModules_NIFSearch.pageObjects.test.NIFSearch_SearchTax@4678c730]" name="degree360View" duration-ms="35844" started-at="2019-08-12T15:06:06Z" finished-at="2019-08-12T15:06:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+            <line>
+              <![CDATA[Person with New NIF is displayed : Validation Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- degree360View -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:agt.psrm.appModules.appModules_NIFSearch.pageObjects.test.NIFSearch_SearchTax@4678c730]" name="afterMethod" is-config="true" duration-ms="257" started-at="2019-08-12T15:06:42Z" finished-at="2019-08-12T15:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- agt.psrm.appModules.appModules_NIFSearch.pageObjects.test.NIFSearch_SearchTax -->
+    </test> <!-- Testes -->
+  </suite> <!-- psrm -->
+</testng-results>
