@@ -14,7 +14,7 @@ pipeline {
 
   stages {
         
-      stage('Clean Workspace') {
+      stage('Check') {
       steps {
         
        
@@ -108,22 +108,5 @@ pipeline {
     
 
   }
- /*================================================================*
- * Scripts Utilitarios	
- 
-      def sendMessage(msg) {
-  		 try {
-     	withCredentials([string(credentialsId: 'gchat-token', variable: 'GTOKEN')]) {
-        googlechatnotification url: "https://chat.googleapis.com/v1/spaces/AAAASaW7Wy8/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=$GTOKEN", message: msg + "(<${env.BUILD_URL}|Mais Informacoes>)" 
-     	                             
-     	}
-     	
-   		}
-   		-- cp /usr/local/bin/chromedriver /var/lib/jenkins/workspace/SELENIUM/psrmSeleniumAutomation/driver/; 
-   		
-   		catch (Exception e) {
-                          
-   }	
-}   * 
- *================================================================*/
+
 
